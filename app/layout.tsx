@@ -2,6 +2,10 @@ import type { Metadata } from 'next';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { siteUrl, hasHeroProfile } from '@/lib/data';
+import '@fontsource/lato/latin-400.css';
+import '@fontsource/lato/latin-700.css';
+import '@fontsource/playfair-display/latin-500.css';
+import '@fontsource/playfair-display/latin-700.css';
 import './globals.css';
 
 const socialImage='/profile/tahir-aziz-gold.webp';

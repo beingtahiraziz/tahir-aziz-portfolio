@@ -1,0 +1,7 @@
+'use client';
+import {Canvas,useFrame} from '@react-three/fiber';
+import {Float,Stars} from '@react-three/drei';
+import {useRef} from 'react';
+import * as THREE from 'three';
+function Shapes(){const group=useRef<THREE.Group>(null);useFrame(({pointer,clock})=>{if(!group.current)return;group.current.rotation.y=THREE.MathUtils.lerp(group.current.rotation.y,pointer.x*.17+clock.elapsedTime*.035,.025);group.current.rotation.x=THREE.MathUtils.lerp(group.current.rotation.x,-pointer.y*.12,.025)});return <group ref={group}><Float speed={1} rotationIntensity={.24} floatIntensity={.4}><mesh position={[3.2,.8,-2]}><torusKnotGeometry args={[.72,.18,64,8,2,3]}/><meshBasicMaterial color="#D6A73A" wireframe transparent opacity={.27}/></mesh></Float><Float speed={.8} rotationIntensity={.2} floatIntensity={.3}><mesh position={[-3.8,-1.9,-3]}><icosahedronGeometry args={[1.2,1]}/><meshBasicMaterial color="#F6C85F" wireframe transparent opacity={.21}/></mesh></Float><mesh position={[.3,2,-4]}><sphereGeometry args={[.75,14,14]}/><meshBasicMaterial color="#FFE6A3" wireframe transparent opacity={.15}/></mesh></group>}
+export default function Scene(){return <Canvas dpr={[1,1.5]} gl={{alpha:true,antialias:false,powerPreference:'low-power'}} camera={{position:[0,0,7],fov:45}} style={{position:'absolute',inset:0,pointerEvents:'auto'}}><Stars radius={75} depth={40} count={160} factor={2} saturation={0} fade speed={.3}/><Shapes/></Canvas>}

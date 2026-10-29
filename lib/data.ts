@@ -1,0 +1,13 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import resume from '@/content/resume.json';
+import projects from '@/content/projects.json';
+import socials from '@/content/socials.json';
+import testimonials from '@/content/testimonials.json';
+export {resume,projects,socials,testimonials};
+export const profilePath='/profile/tahir-aziz.jpg';
+export const hasProfile=fs.existsSync(path.join(process.cwd(),'public',profilePath));
+export const heroProfilePath='/profile/tahir-aziz-gold.webp';
+export const hasHeroProfile=fs.existsSync(path.join(process.cwd(),'public',heroProfilePath));
+export const siteUrl=process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/,'')||(process.env.VERCEL_URL?`https://${process.env.VERCEL_URL}`:'http://localhost:3000');
+export const bookCallUrl=process.env.NEXT_PUBLIC_BOOK_CALL_URL||'tel:+923060304319';

@@ -1,24 +1,42 @@
 {
-  "summary": "Dedicated and detail-oriented WordPress and Shopify Developer bringing 3+ years of hands-on experience in designing, developing, securing, and optimizing high-performing eCommerce, LMS, marketplace, and business websites. Strong expertise in WordPress, Elementor, Oxygen, Bricks, Beaver Builder, Shopify, WooCommerce, HTML, CSS, JavaScript, and PHP, complemented by practical experience in custom dashboard development, cPanel hosting management, malware removal, and website security audits. Skilled in website redesigns, bug fixing, cloning and migration, technical and on-page SEO, and performance optimization. Successfully delivered 250+ projects, providing clients with secure, scalable, user-friendly, and conversion-focused digital solutions.",
+  "summary": "Results-driven WordPress & Shopify Full Stack Developer with 3+ years of hands-on experience designing, developing, securing, and optimizing high-performing eCommerce, LMS, marketplace, SaaS, and lead-generation websites. Strong expertise in WordPress, Elementor Pro, Oxygen, Bricks, Divi, Shopify, WooCommerce, HTML, CSS, JavaScript, PHP, and MySQL, extended into custom web application development with Laravel, React, TypeScript, and Supabase. Experienced in building custom plugins, client portals, and dashboards; integrating CRMs, APIs, and AI-powered automation (GoHighLevel, n8n, Make, LLMs); and delivering technical SEO, AEO/GEO, conversion optimization, malware removal, and hosting management. Successfully delivered 250+ projects, providing clients with secure, scalable, fast, and conversion-focused digital solutions.",
   "skills": [
     "WordPress",
-    "Elementor",
     "Shopify",
     "WooCommerce",
+    "Elementor Pro",
     "Oxygen",
     "Bricks",
     "Beaver Builder",
-    "HTML5",
-    "CSS3",
-    "JavaScript",
+    "Divi",
+    "Enfold",
+    "ACF Pro",
+    "Dokan",
+    "Laravel",
+    "React",
+    "TypeScript",
+    "Vue (Ionic)",
     "PHP",
-    "Responsive Web Design",
+    "MySQL",
+    "Supabase",
+    "REST APIs",
+    "Webhooks",
+    "GoHighLevel",
+    "n8n",
+    "Make",
+    "AI Chatbots",
+    "LLM Integrations",
+    "MCP Integrations",
     "Technical SEO",
-    "On-Page SEO",
+    "Local SEO",
+    "AEO",
+    "GEO",
+    "Schema Markup",
+    "GA4",
     "Core Web Vitals",
-    "Website Security",
-    "cPanel Hosting",
-    "Website Migration"
+    "Security Audits",
+    "Malware Removal",
+    "Email Deliverability"
   ],
   "experience": [
     {
@@ -26,10 +44,12 @@
       "company": "Tech Thrill",
       "period": "March 2023 – Present",
       "bullets": [
-        "Designed and developed responsive WordPress business, eCommerce, LMS, and marketplace websites using Elementor, Oxygen, Bricks, and Beaver Builder.",
-        "Developed custom dashboards and admin interfaces tailored to client workflows.",
-        "Resolved WordPress bugs, plugin conflicts, and theme issues; handled migration, redesign, malware removal, security audits, and hardening.",
-        "Optimized page speed, technical and on-page SEO, and security practices."
+        "Designed and developed responsive business, service, eCommerce, LMS, multilingual, and multi-vendor marketplace websites using Elementor Pro, Oxygen, Bricks, Divi, and Beaver Builder.",
+        "Built custom WordPress plugins, child themes, ACF-powered templates, dashboards, and admin interfaces tailored to client workflows.",
+        "Resolved bugs and plugin conflicts; handled cloning, migration, and redesign while preserving data integrity, redirects, and SEO rankings.",
+        "Performed malware removal, spam-link cleanup, security audits, and website hardening.",
+        "Managed cPanel, Hostinger, SiteGround, and WP Engine hosting, including DNS, SSL, email deliverability, and server configuration.",
+        "Optimized speed, Core Web Vitals, and SEO; built Google Ads landing pages, lead forms, and booking funnels."
       ]
     },
     {
@@ -37,8 +57,11 @@
       "company": "Tech Thrill",
       "period": "Jan 2023 – Present",
       "bullets": [
-        "Developed and maintained dynamic websites and web applications using HTML, CSS, JavaScript, and PHP.",
-        "Translated requirements into functional websites and implemented feature and performance improvements."
+        "Developed custom websites and web applications using HTML, CSS, JavaScript, TypeScript, PHP, MySQL, Laravel, and React.",
+        "Built a SaaS recruiting platform (ATS) with email marketing using React, TypeScript, Supabase, and Vercel, including role-based access, multi-provider email sending, and accessibility compliance.",
+        "Developed PHP portals and LMS platforms with staff, client, and admin dashboards, scheduling, timesheets, and secure role-based access.",
+        "Integrated APIs and webhooks including Resend, SendGrid, Twilio, and Google APIs to automate workflows and communication.",
+        "Collaborated with clients and designers and maintained solutions for long-term stability."
       ]
     },
     {
@@ -46,25 +69,34 @@
       "company": "SilverMind Solutions",
       "period": "Jan 2022 – Jan 2023",
       "bullets": [
-        "Built and customized Shopify stores for dropshipping and eCommerce businesses with a focus on conversion optimization.",
-        "Managed product listings, store configuration, theme customization, third-party app integration, mobile responsiveness, and on-page SEO."
+        "Built and customized Shopify stores for dropshipping and eCommerce with a focus on conversion optimization.",
+        "Managed product research, listings, and complete store configuration from setup to launch.",
+        "Customized Shopify themes, integrated third-party apps, and optimized store performance.",
+        "Ensured mobile responsiveness and applied on-page SEO best practices."
       ]
     }
   ],
   "tools": [
     "WordPress",
-    "Elementor",
+    "Elementor Pro",
     "Oxygen",
     "Bricks",
-    "Beaver Builder",
+    "Divi",
     "Shopify",
     "WooCommerce",
+    "Laravel",
+    "React",
+    "TypeScript",
+    "PHP",
+    "MySQL",
+    "Supabase",
+    "GoHighLevel",
+    "n8n",
+    "Make",
     "cPanel",
-    "Figma",
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "PHP"
+    "Vercel",
+    "GitHub",
+    "Figma"
   ],
   "education": [
     {
@@ -84,5 +116,31 @@
     "WordPress Development",
     "MS Office",
     "CCA (Certificate in Computer Applications)"
+  ],
+  "expertise": [
+    {
+      "title": "Search visibility",
+      "detail": "Technical, on-page and local SEO, schema markup, internal linking, entity optimization, AEO and GEO."
+    },
+    {
+      "title": "Conversion journeys",
+      "detail": "Clear CTAs, trust sections, lead forms, booking funnels, and call and conversion tracking."
+    },
+    {
+      "title": "Connected workflows",
+      "detail": "GoHighLevel, n8n and Make workflows for form-to-CRM routing, pipelines, follow-ups and lead alerts."
+    },
+    {
+      "title": "AI integrations",
+      "detail": "Chatbots, FAQ assistants, AI lead qualification and LLM-powered features through APIs and webhooks."
+    },
+    {
+      "title": "Security and hosting",
+      "detail": "Malware cleanup, security audits, hardening, backups, DNS, SSL and managed hosting."
+    },
+    {
+      "title": "Email deliverability",
+      "detail": "SPF, DKIM, DMARC and SMTP configuration for reliable website and transactional email."
+    }
   ]
 }

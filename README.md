@@ -13,12 +13,12 @@ Open `http://localhost:3000`. Run `npm run build` before deploying.
 
 ## Content
 
-- `content/resume.json` contains resume text extracted from the supplied PDF, including two education entries and three separate certifications. Add the third education entry when its qualification, institution, and dates are confirmed.
+- `content/resume.json` contains content from the latest supplied resume, including full stack skills, experience, two education entries, and three certifications.
 - `content/projects.json` contains 73 supplied live URLs. Four filters now work using provisional browsing tags. Review each `category` before treating it as a claim about services delivered, and add verified `blurb` text when ready. Project cards use code-drawn browser previews; no additional photos appear. Empty categories appear in All only.
 - `content/socials.json` contains the requested handles and URLs. Verify the links before launch.
 - `content/testimonials.json` starts empty. Add objects shaped like `{ "quote": "...", "name": "...", "role": "..." }` only for real testimonials.
 - The Hero uses the gold-themed edit of the supplied real portrait at `public/profile/tahir-aziz-gold.webp`. No other photos are displayed. If it is removed, the site displays a TA monogram.
-- The supplied PDF is at `public/resume/tahir-aziz-resume.pdf`.
+- The latest supplied PDF is copied to `public/resume/tahir-aziz-resume.pdf`.
 
 ## Environment variables
 

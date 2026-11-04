@@ -5,8 +5,9 @@ import projects from '@/content/projects.json';
 import socials from '@/content/socials.json';
 import testimonials from '@/content/testimonials.json';
 export {resume,projects,socials,testimonials};
-export const heroProfilePath='/profile/tahir-aziz.jpg';
+export const heroProfilePath='/profile/tahir-aziz-dark.webp';
 export const hasHeroProfile=fs.existsSync(path.join(process.cwd(),'public',heroProfilePath));
 export const siteUrl=process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/,'')||(process.env.NODE_ENV==='production'?'https://beingtahiraziz.vercel.app':'http://localhost:3000');
 export const bookCallUrl=process.env.NEXT_PUBLIC_BOOK_CALL_URL||'tel:+923060304319';
+
 

@@ -42,7 +42,7 @@
     {
       "role": "WordPress Developer",
       "company": "Tech Thrill",
-      "period": "March 2023 – 3 Nov 2026",
+      "period": "March 2023 – 3 November 2026",
       "bullets": [
         "Designed and developed responsive business, service, eCommerce, LMS, multilingual, and multi-vendor marketplace websites using Elementor Pro, Oxygen, Bricks, Divi, and Beaver Builder.",
         "Built custom WordPress plugins, child themes, ACF-powered templates, dashboards, and admin interfaces tailored to client workflows.",
@@ -50,19 +50,21 @@
         "Performed malware removal, spam-link cleanup, security audits, and website hardening.",
         "Managed cPanel, Hostinger, SiteGround, and WP Engine hosting, including DNS, SSL, email deliverability, and server configuration.",
         "Optimized speed, Core Web Vitals, and SEO; built Google Ads landing pages, lead forms, and booking funnels."
-      ]
+      ],
+      "periodShort": "Mar 2023 – Nov 2026"
     },
     {
       "role": "Front-End & Back-End Developer",
       "company": "Tech Thrill",
-      "period": "Jan 2023 – 3 Nov 2026",
+      "period": "Jan 2023 – 3 November 2026",
       "bullets": [
         "Developed custom websites and web applications using HTML, CSS, JavaScript, TypeScript, PHP, MySQL, Laravel, and React.",
         "Built a SaaS recruiting platform (ATS) with email marketing using React, TypeScript, Supabase, and Vercel, including role-based access, multi-provider email sending, and accessibility compliance.",
         "Developed PHP portals and LMS platforms with staff, client, and admin dashboards, scheduling, timesheets, and secure role-based access.",
         "Integrated APIs and webhooks including Resend, SendGrid, Twilio, and Google APIs to automate workflows and communication.",
         "Collaborated with clients and designers and maintained solutions for long-term stability."
-      ]
+      ],
+      "periodShort": "Jan 2023 – Nov 2026"
     },
     {
       "role": "Shopify Developer",
@@ -73,7 +75,8 @@
         "Managed product research, listings, and complete store configuration from setup to launch.",
         "Customized Shopify themes, integrated third-party apps, and optimized store performance.",
         "Ensured mobile responsiveness and applied on-page SEO best practices."
-      ]
+      ],
+      "periodShort": "Jan 2022 – Jan 2023"
     }
   ],
   "tools": [
@@ -103,7 +106,7 @@
       "qualification": "Bachelor of Science in Cyber Security",
       "institution": "Islamia University Bahawalpur, Pakistan",
       "period": "Jan 2023 – Feb 2027",
-      "detail": "Expected graduation: February 2027"
+      "detail": ""
     },
     {
       "qualification": "Intermediate in Computer Science (ICS)",

@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { siteUrl, hasHeroProfile } from '@/lib/data';
 import '@fontsource/lato/latin-400.css';
